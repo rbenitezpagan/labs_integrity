@@ -1,4 +1,4 @@
-# Integrity Lab - Lab01 (Windows)
+# Integrity Lab - Lab01: Basic script usage (Windows)
 
 ## Table of contents
 
