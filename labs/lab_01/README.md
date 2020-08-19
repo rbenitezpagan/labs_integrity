@@ -2,20 +2,20 @@
 
 ## Table of contents
 
-[Introduction](#lab01-intro)
-[Definition of Integrity](#lab01-def)
-[What is PowerShell](#lab01-ps1)
-[Preparation](#lab01-prep)
-[Activity 1: Listing items in a directory](#lab01-act01)
-[Activity 2: Listing items in a directory recursively](#lab01-act02)
-[Activity 3: Listing all items in a directory recursively](#lab01-act03)
-[Activity 4: Getting the hash value of all items](#lab01-act04)
-[Activity 5: Identify changes in a target directory](#lab01-act05)
-[Script: dirComparsion.ps1](#lab01-script)
-[Activity 6: Identify possible malicious changes in a target directory](#lab01-act06)
-[Footnotes](#lab01-footnotes)
+- [Introduction](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#introduction-lab01-intro)
+- [Definition of Integrity](#lab01-def)
+- [What is PowerShell](#lab01-ps1)
+- [Preparation](#lab01-prep)
+- [Activity 1: Listing items in a directory](#lab01-act01)
+- [Activity 2: Listing items in a directory recursively](#lab01-act02)
+- [Activity 3: Listing all items in a directory recursively](#lab01-act03)
+- [Activity 4: Getting the hash value of all items](#lab01-act04)
+- [Activity 5: Identify changes in a target directory](#lab01-act05)
+- [Script: dirChecker.ps1](#lab01-script)
+- [Activity 6: Identify possible malicious changes in a target directory](#lab01-act06)
+- [Footnotes](#lab01-footnotes)
 
-## Introduction {#lab01-intro}
+## Introduction
 
 This Lab Activity will show users how to identify changes in files based on their hash value and will compare a production Site towards a golden Image to find out if changes were made.
 
@@ -25,13 +25,13 @@ This is a lab assignment I created for my [CS36000 Introduction to Cybersecurity
 
 Download the PDF file from [here](/files/lab01.pdf).
 
-### Definition of Integrity {#lab01-def}
+### Definition of Integrity
 
 > *Data integrity is what the "I" in CIA Triad stands for. This is an essential component of the CIA Triad and designed to protect data from deletion or modification from any unauthorized party, and it ensures that when an authorized person makes a change that should not have been made the damage can be reversed.* [^1]
 
 > *In information security, data integrity means maintaining and assuring the accuracy and completeness of data over its entire lifecycle. This means that data cannot be modified in an unauthorized or undetected manner. This is not the same thing as referential integrity in databases, although it can be viewed as a special case of consistency as understood in the classic ACID model of transaction processing. Information security systems typically provide message integrity alongside confidentiality.* [^2]
 
-### What is Power Shell {#lab01-ps1}
+### What is Power Shell
 
 > *PowerShell is a task-based command-line shell and scripting language built on .NET. PowerShell helps system administrators and power-users rapidly automate tasks that manage operating systems (Linux, macOS, and Windows) and processes.*
 >
