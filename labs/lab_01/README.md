@@ -23,7 +23,7 @@ This is a lab assignment I created for my [CS36000 Introduction to Cybersecurity
 
 ![Command Explanation](/files/images/lab01_thumbnail_small.PNG)
 
-Download the PDF file from [here](/files/lab01.pdf)
+Download the PDF file from [here](/files/lab01.pdf).
 
 ### Definition of Integrity {#lab01-def}
 
