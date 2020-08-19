@@ -37,7 +37,7 @@ Download the PDF file from [here](/files/lab01.pdf).
 >
 > *PowerShell commands let you manage computers from the command line. PowerShell providers let you access data stores, such as the registry and certificate store, as easily as you access the file system. PowerShell includes a rich expression parser and a fully developed scripting language.* [^3]
 
-## Preparation {#lab01-prep}
+## Preparation
 
 Download and unzip the [integrity_lab.zip](https://github.com/rbenitezpagan/labs_integrity/raw/master/files/zip/integrity_lab.zip) archive into your **Documents** folder.
 
@@ -73,7 +73,7 @@ Both **www_release** and **wwwroot** should contain:
 |   |__ index.html
 ```
 
-## Activity 1: Listing items in a directory {#lab01-act01}
+## Activity 1: Listing items in a directory
 
 1. Open the command prompt. Use the Start button and type cmd.
 2. Type “powershell” and hit Enter.
@@ -108,7 +108,7 @@ Now that PowerShell is running
 5. Are the listed files all the files inside these folders? _______
 ```
 
-## Activity 2: Listing items in a directory *recursively* {#lab01-act02}
+## Activity 2: Listing items in a directory *recursively*
 
 If your answer to the last question of Activity 1 was **No**, you are correct.
 
@@ -138,7 +138,7 @@ Let’s fix that:
 3.  Now, are the listed files all the files inside these folders? _______
 ```
 
-## Activity 3: Listing *all* items in a directory recursively {#lab01-act03}
+## Activity 3: Listing *all* items in a directory recursively
 
 If your answer to the last question of Activity 2 was **Yes**, *under normal circumstances, you would be correct*, however this is not the case.
 
@@ -163,7 +163,7 @@ Let's find out why!
 7.  Now, finally, are the listed files all the files inside these folders? _______
 ```
 
-## Activity 4: Getting the hash value of all items {#lab01-act04}
+## Activity 4: Getting the hash value of all items
 
 If your answer to the last question of Activity 3 was Yes, now, you are correct.
 
@@ -193,7 +193,7 @@ Get the hash value of all files per directory, the following command ForEach-Obj
 5.  Which was the default hashing algorithm used? ____________
 ```
 
-## Activity 5: Identify changes in a target directory {#lab01-act05}
+## Activity 5: Identify changes in a target directory
 
 We know hash values help us identify when changes have occurred, this is possible because a change will result in a completely different hash value regardless of changes being minimum.
 
@@ -211,7 +211,7 @@ In order to compare two directories, we will employ the Compare-Object function.
 
 The next activity is the completed script that can be used to identify changes in a directory based in a golden Image comparison.
 
-## Script: dirChecker.ps1 {#lab01-script}
+## Script: dirChecker.ps1
 
 The following code is a directory checker powershell script retrieved from the [National Security Agency (NSA)'s](https://www.nsa.gov/) - Cyber Security Directorate (CSD)'s Cyber Security Information (CSI) [publication](https://www.nsa.gov/News-Features/News-Stories/Article-View/Article/2159419/detect-prevent-cyber-attackers-from-exploiting-web-servers-via-web-shell-malware/) related to ["Detect and Prevent Web Shell Malware"](https://media.defense.gov/2020/Jun/09/2002313081/-1/-1/0/CSI-DETECT-AND-PREVENT-WEB-SHELL-MALWARE-20200422.PDF).
 
@@ -283,8 +283,7 @@ Write-Host "Any file listed below is a new or changed file.`n"
 Write-Host "`nFile analysis completed."
 ```
 
-
-## Activity 6: Identify possible malicious changes in a target directory {#lab01-act06}
+## Activity 6: Identify possible malicious changes in a target directory
 
 Copy and Paste the script above into a new file and call the file “dirComparison.ps1” that is the extension of PowerShell scripts.
 
@@ -302,7 +301,7 @@ To execute the script and find changed or new files in our target directory do t
 
 Download the Solutions from [here](/files/lab01_solution.pdf).
 
-### Footnotes {#lab01-footnotes}
+### Footnotes
 
 [^1]: [What is the CIA Triad?](https://www.forcepoint.com/cyber-edu/cia-triad)
 [^2]: [Information Security](https://en.wikipedia.org/wiki/Information_security#Integrity)
