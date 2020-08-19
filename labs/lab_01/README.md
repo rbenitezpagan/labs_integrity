@@ -2,18 +2,19 @@
 
 ## Table of contents
 
-- [Introduction](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#introduction-lab01-intro)
-- [Definition of Integrity](#lab01-def)
-- [What is PowerShell](#lab01-ps1)
-- [Preparation](#lab01-prep)
-- [Activity 1: Listing items in a directory](#lab01-act01)
-- [Activity 2: Listing items in a directory recursively](#lab01-act02)
-- [Activity 3: Listing all items in a directory recursively](#lab01-act03)
-- [Activity 4: Getting the hash value of all items](#lab01-act04)
-- [Activity 5: Identify changes in a target directory](#lab01-act05)
-- [Script: dirChecker.ps1](#lab01-script)
-- [Activity 6: Identify possible malicious changes in a target directory](#lab01-act06)
-- [Footnotes](#lab01-footnotes)
+- [Introduction](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#introduction)
+- [Definition of Integrity](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#definition-of-integrity)
+- [What is PowerShell](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#what-is-power-shell)
+- [Preparation](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#preparation)
+- [Activity 1: Listing items in a directory](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#activity-1-listing-items-in-a-directory)
+- [Activity 2: Listing items in a directory recursively](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#activity-2-listing-items-in-a-directory-recursively)
+- [Activity 3: Listing all items in a directory recursively](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#activity-3-listing-all-items-in-a-directory-recursively)
+- [Activity 4: Getting the hash value of all items](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#activity-4-getting-the-hash-value-of-all-items)
+- [Activity 5: Identify changes in a target directory](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#activity-5-identify-changes-in-a-target-directory)
+- [Script: dirChecker.ps1](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#script-dircheckerps1)
+- [Activity 6: Identify possible malicious changes in a target directory](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#activity-6-identify-possible-malicious-changes-in-a-target-directory)
+- [Solutions](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#solutions)
+- [Footnotes](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_01#footnotes)
 
 ## Introduction
 
@@ -303,6 +304,6 @@ Download the Solutions from [here](/files/lab01_solution.pdf).
 
 ### Footnotes
 
-[^1]: [What is the CIA Triad?](https://www.forcepoint.com/cyber-edu/cia-triad)
-[^2]: [Information Security](https://en.wikipedia.org/wiki/Information_security#Integrity)
-[^3]: [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
+- [^1]: [What is the CIA Triad?](https://www.forcepoint.com/cyber-edu/cia-triad)
+- [^2]: [Information Security](https://en.wikipedia.org/wiki/Information_security#Integrity)
+- [^3]: [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
