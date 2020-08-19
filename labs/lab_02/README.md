@@ -1,4 +1,4 @@
-# Integrity Lab - Lab02: Scheduling jobs (Windows)
+# Integrity Lab - Lab02: Scheduling jobs
 
 ## Table of contents
 
