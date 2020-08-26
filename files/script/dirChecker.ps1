@@ -61,3 +61,5 @@ Write-Host "Any file listed below is a new or changed file.`n"
 (Compare-Object $good $prod -Property hash -PassThru | Where-Object{$_.SideIndicator -eq '=>'}).Path
 
 Write-Host "`nFile analysis completed."
+
+timeout /t -1
