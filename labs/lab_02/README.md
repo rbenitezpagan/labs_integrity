@@ -4,9 +4,17 @@
 
 - [Introduction](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#introduction)
 - [Definition of Integrity](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#definition-of-integrity)
-- [What is PowerShell](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#what-is-power-shell)
+- [What is Windows' Task Scheduler](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#what-is-windows-task-scheduler)
 - [Preparation](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#preparation)
-- [Solutions](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#solutions)
+- [Activity 1: Open the Task Scheduler](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-1-open-the-task-scheduler)
+- [Activity 2: Create Task](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-2-create-task)
+- [Activity 3: Design your task's trigger](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-3-design-your-tasks-trigger)
+- [Activity 4: Design your task's action](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-4-design-your-tasks-action)
+- [Activity 5: Design your task's conditions](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-5-design-your-tasks-conditions)
+- [Activity 6: Design your task's settings](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-6-design-your-tasks-settings)
+- [Activity 7: Reload Task Scheduler](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-7-reload-task-scheduler)
+- [Activity 8: Getting results](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-8-getting-results)
+- [Activity 9: Cleaning](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-9-cleaning)
 - [Footnotes](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#footnotes)
 
 ## Introduction
