@@ -49,10 +49,12 @@ In this lab we will create a Task using the Windows Task Scheduler to demo findi
 
 To start, download the script and first 2 zip files into your **Documents** folder.
 
-- [dirChecker.ps1](https://raw.githubusercontent.com/rbenitezpagan/labs_integrity/master/files/script/dirChecker.ps1)
-NOTE: Be aware that when this file is downloaded it might be dowloaded as a .txt file, e.g. "dirChecker.ps1.txt". If your filenames' extension are visible you should see "dirChecker.ps1" if they are not you should see "dirChecker".
+- [dirChecker.ps1](https://raw.githubusercontent.com/rbenitezpagan/labs_integrity/master/files/script/dirChecker.zip)
 
-Your file should look like this ![dirChecker_thumbnail](/files/images/dirChecker_thumbnail.png)
+Your file should look like this after being unzip:
+![dirChecker_thumbnail](/files/images/dirChecker_thumbnail.png)
+
+Zip files:
 
 - [project-html-website-1.zip](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-1.zip)
 - [project-html-website-2.zip](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-2.zip)
