@@ -49,16 +49,16 @@ In this lab we will create a Task using the Windows Task Scheduler to demo findi
 
 To start, download the first 2 zip files into your **Documents** folder.
 
-- [project-html-website-1.zip](/app_2/project-html-website-1.zip)
-- [project-html-website-2.zip](/app_2/project-html-website-2.zip)
+- [project-html-website-1.zip](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-1.zip)
+- [project-html-website-2.zip](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-2.zip)
 
 ## Activity 1: Open the Task Scheduler
 
 You can click ther Start icon and type "scheduler" or "Task Scheduler" and should get:
 
-![TaskScheduler](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-1.zip)
+![TaskScheduler](/labs/lab_02/os_windows/images/01_TaskSchedulerApp.png)
 
-![TaskSchedulerHome](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-2.zip)
+![TaskSchedulerHome](/labs/lab_02/os_windows/images/01A_TaskSchedulerHome.png)
 
 ## Activity 2: Create Task
 
