@@ -41,7 +41,16 @@ Download the PDF file from [here](/files/lab02.pdf).
 
 ## Preparation
 
-By now you should have completed lab_01 and found the file(s) different than the golden image. In this new lab we will create a Task using the Windows Task Scheduler to demo finding changes automatically.
+In order to demonstrate our script's ability to identify changes we are going to be using several zip files containing different changes to our application.
+
+This demo will use the simple HTML app found at [https://github.com/microsoft/project-html-website](https://github.com/microsoft/project-html-website).
+
+In this lab we will create a Task using the Windows Task Scheduler to demo finding changes automatically.
+
+To start, download the first 2 zip files into your **Documents** folder.
+
+- [project-html-website-1.zip](/app_2/project-html-website-1.zip)
+- [project-html-website-2.zip](/app_2/project-html-website-2.zip)
 
 ## Activity 1: Open the Task Scheduler
 
