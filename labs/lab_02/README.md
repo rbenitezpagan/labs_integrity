@@ -47,11 +47,12 @@ This demo will use the simple HTML app found at [https://github.com/microsoft/pr
 
 In this lab we will create a Task using the Windows Task Scheduler to demo finding changes automatically.
 
-To start, download the script and first 2 zip files into your **Documents** folder.
+To start, **download and unzip** the script and first 2 zip files into your **Documents** folder.
 
-- [dirChecker.ps1](https://raw.githubusercontent.com/rbenitezpagan/labs_integrity/master/files/script/dirChecker.zip)
+- [dirChecker.zip](https://raw.githubusercontent.com/rbenitezpagan/labs_integrity/master/files/script/dirChecker.zip)
 
 Your file should look like this after being unzip:
+
 ![dirChecker_thumbnail](/files/images/dirChecker_thumbnail.png)
 
 Zip files:
