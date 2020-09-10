@@ -143,19 +143,49 @@ Please close the scheduler and open it back again. You should now see your task 
 
 ## Activity 8: Getting results
 
-Depending on the kind of trigger you chose, you should get the powershell screen and see the same changes identified in lab_01.
+Select your task from the list and on the right side of the screen click on "Run" to test it.
 
-If you are not really sure which trigger you chose and want to test your task, select your task from the list and on the right side of the screen click on "Run" to test it.
+Now the code will execute, show you the findings, and wait for you to press a key yo continue and close the script.
 
-NOTE: If you directly downloaded the code from the NSA's repo the screen will open and close automatically. If you use the script from the lab_01 you should see at the end of the dirCkecker.ps1 the following:
-```cmd
-timeout /t -1
-```
-Please add it if it is not there.
+---
 
-Now the code will execute, show you the findings, and wait for you to press a key yo continue and close the script. The changes shown here are not neccesarily the ones you should get. You should get the ones from lab_01.
+### **Exercise 1: Comparing "project-html-website-2" against "project-html-website-1".**
 
-![Findings](/labs/lab_02/os_windows/images/08_Findings.png)
+1. Where changes identified?  Yes/No
+2. Are there new or modified directories? Yes/No
+3. What are the directories names?
+4. Are there new or modified files? Yes/No
+5. What are the files names?
+
+---
+
+### **Exercise 2: Comparing "project-html-website-3" against "project-html-website-1".**
+
+Download [project-html-website-3.zip](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-3.zip) into **Documents** and unzip it.
+
+On the Task Scheduler, click properties and modify your task's action to use "**project-html-website-3**" instead of "**project-html-website-2**". (See [Activity 4](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-4-design-your-tasks-action) for guidance.)
+
+1. Where changes identified?  Yes/No
+2. Are there new directories? Yes/No
+3. What are the directories names?
+4. Are there new or modified files? Yes/No
+5. What are the files names?
+
+---
+
+### **Exercise 3: Comparing "project-html-website-4" against "project-html-website-1".**
+
+Download [project-html-website-4.zip](https://github.com/rbenitezpagan/labs_integrity/raw/master/app_2/project-html-website-4.zip) into **Documents** and unzip it.
+
+On the Task Scheduler, click properties and modify your task's action to use "**project-html-website-4**" instead of "**project-html-website-3**". (See [Activity 4](https://github.com/rbenitezpagan/labs_integrity/tree/master/labs/lab_02#activity-4-design-your-tasks-action) for guidance.)
+
+1. Where changes identified?  Yes/No
+2. Are there new directories? Yes/No
+3. What are the directories names?
+4. Are there new or modified files? Yes/No
+5. What are the files names?
+
+---
 
 ## Activity 9: Cleaning
 
